@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css";
 import Column from "./components/Column";
 
 const App = () => {
