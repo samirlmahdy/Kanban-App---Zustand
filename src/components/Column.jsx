@@ -3,7 +3,6 @@ import "./column.css";
 import Task from "./Task";
 import { useStore } from "../store/store";
 import classNames from "classnames";
-import { v4 as uuid } from "uuid";
 
 const Column = ({ state }) => {
   const [text, setText] = useState("");
@@ -43,7 +42,7 @@ const Column = ({ state }) => {
       {tasks.map((task) => (
         <Task
           title={task.title}
-          key={uuid()}
+          key={task.title}
         />
       ))}
       {open && (
