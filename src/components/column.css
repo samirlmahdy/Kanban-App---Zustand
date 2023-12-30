@@ -46,3 +46,7 @@
   transform: translate(-50%, -50%);
   padding: 3rem;
 }
+
+.column.drop {
+  border-color: white;
+}

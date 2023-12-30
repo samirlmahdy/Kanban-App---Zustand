@@ -1,0 +1,1 @@
+npm i --save-dev vitest @testing-library/jest-doc @testing-library/react jsdom
